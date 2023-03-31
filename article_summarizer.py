@@ -1,5 +1,7 @@
 from newspaper import Article
 import streamlit as st
+import nltk
+nltk.download('punkt')
 st.title("Article Summarizer")
 url =st.text_input('Paste the article link below',"")
 language={"English":"en","Hindi":"hi"}
