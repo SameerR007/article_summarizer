@@ -1,3 +1,4 @@
 newspaper3k
 gunicorn==20.1.0
 Article
+nltk
